@@ -8,12 +8,12 @@ Install [cargo-binutils](https://github.com/rust-embedded/cargo-binutils) to use
 cargo install cargo-binutils
 ```
 
-#### Dependencies for C apps
+#### Dependencies for C apps, qemu tools
 
-Install `libclang-dev`:
+Install `libclang-dev` and `qemu-system-riscv64`:
 
 ```bash
-sudo apt install libclang-dev
+sudo apt install libclang-dev qemu-system-misc
 ```
 
 Download & install [musl](https://musl.cc) toolchains:
