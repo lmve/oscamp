@@ -10,10 +10,10 @@ cargo install cargo-binutils
 
 #### Dependencies for C apps, qemu tools
 
-Install `libclang-dev` and `qemu-system-riscv64`:
+Install `libclang-dev`, `qemu-system-riscv64`, `dosfstools`, `wget`:
 
 ```bash
-sudo apt install libclang-dev qemu-system-misc
+sudo apt install libclang-dev qemu-system-misc dosfstools wget
 ```
 
 Download & install [musl](https://musl.cc) toolchains:
