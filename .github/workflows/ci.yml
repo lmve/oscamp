@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  setup:
+  setup-and-test-tour:
     runs-on: ubuntu-latest
     env:
         qemu-version: 9.2.1
