@@ -58,4 +58,4 @@ jobs:
     
     - name: Run tour
       run: |
-        ./scripts/tour.sh 
+        ./scripts/tour_test.sh 
